@@ -61,10 +61,42 @@ header .front-container h1 {
 
 header .front-container .lorem {
   font-size: 1.2em;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 100%;
   margin: auto;
+}
+
+header .front-container .lorem .typing {
+  position: relative;
+  margin-right: 3px;
+}
+
+header .front-container .lorem .typing::after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  width: 1px;
+  height: 100%;
+  border-right: 3px solid #fff;
+  -webkit-animation: blink 0.5s infinite ease;
+          animation: blink 0.5s infinite ease;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 header .front-container .arrow {
@@ -92,7 +124,7 @@ header .front-container .arrow img {
     bottom: 20px;
   }
   75% {
-    bottom: 23px;
+    bottom: 25px;
   }
   100% {
     bottom: 0;
@@ -110,7 +142,7 @@ header .front-container .arrow img {
     bottom: 20px;
   }
   75% {
-    bottom: 23px;
+    bottom: 25px;
   }
   100% {
     bottom: 0;
