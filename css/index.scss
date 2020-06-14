@@ -10,7 +10,7 @@
 
 body {
    width: 100%;
-   background-color: #11092A;
+   background-color: #2B0059;
    color: #F9F9FA;
 }
 
@@ -135,12 +135,15 @@ header {
          margin-top: 8vh;
          display: grid;
          place-items: center;
+         outline: 0;
 
          img {
-            padding: 40px 0;
             position: relative;
             animation: bounce 2s ease infinite;
+            border-radius: 50%;
+            outline: 0;
          }
+
       }
 
       @keyframes bounce {
@@ -170,7 +173,7 @@ header {
    height: 100vh;
 
    .pro-container {
-      padding-top: 10vh;
+      padding-top: 12vh;
       text-align: center;
 
 

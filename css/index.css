@@ -10,7 +10,7 @@
 
 body {
   width: 100%;
-  background-color: #11092A;
+  background-color: #2B0059;
   color: #F9F9FA;
 }
 
@@ -159,13 +159,15 @@ header .front-container .arrow {
   display: -ms-grid;
   display: grid;
   place-items: center;
+  outline: 0;
 }
 
 header .front-container .arrow img {
-  padding: 40px 0;
   position: relative;
   -webkit-animation: bounce 2s ease infinite;
           animation: bounce 2s ease infinite;
+  border-radius: 50%;
+  outline: 0;
 }
 
 @-webkit-keyframes bounce {
@@ -211,7 +213,7 @@ header .front-container .arrow img {
 }
 
 .pro .pro-container {
-  padding-top: 10vh;
+  padding-top: 12vh;
   text-align: center;
 }
 
