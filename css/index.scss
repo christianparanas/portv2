@@ -136,13 +136,16 @@ header {
          display: grid;
          place-items: center;
          outline: 0;
+         outline-width: 0;
 
          img {
             position: relative;
             animation: bounce 2s ease infinite;
             border-radius: 50%;
             outline: 0;
+            border: 0;
          }
+
 
       }
 
@@ -193,6 +196,7 @@ header {
       font-size: 1.2em;
       display: flex;
       text-align: start;
+      margin-bottom: 15px;
 
       i {
          font-size: 15px;
