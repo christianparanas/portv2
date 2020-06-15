@@ -196,15 +196,69 @@ header {
       font-size: 1.2em;
       display: flex;
       text-align: start;
-      margin-bottom: 15px;
+      margin-bottom: 40px;
 
       i {
          font-size: 15px;
          color: #fff;
          padding: 3px 5px 0 0;
       }
+
+      p {
+         margin-bottom: 25px;
+      }
    }
-}
+
+   .download {
+      margin-bottom: 50px;
+
+      a {
+         text-decoration: none;
+         color: #fff;
+         border: 4px solid #11092A;
+         font-size: 20px;
+         padding: 20px;
+         border-radius: 5px;
+         background-color: #11092A;
+         transition: all .7s ease;
+
+         i {
+            font-size: 25px;
+            padding-left: 5px;
+            padding-right: 5px;
+         }
+      }
+
+      a:hover {
+         border: 4px solid #11092A;
+         background-color: #2B0059;
+      }
+   }
+
+   .social {
+      width: 60%;
+      margin: auto;
+      display: grid;
+      padding-right: 10px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 20px;
+
+      a {
+         font-size: 35px;
+         text-decoration: none;
+         color: #fff;
+         transition: all 1s ease;
+      }
+
+      a:hover {
+         -webkit-transform: rotateZ(720deg);
+         -moz-transform: rotateZ(720deg);
+         transform: rotateZ(720deg);
+      }
+   }
+}  
+
+
 
 // projects
 .projects {
@@ -243,6 +297,7 @@ header {
             width: 100%;
             margin: 10px auto;
             text-align: start;
+            padding: 5px;
          }
 
          .projects-btn {
@@ -259,6 +314,11 @@ header {
                transition: all .4s ease;
                background-color: #11092A;
                color: #fff;
+
+               i {
+                  color: #fff;
+                  font-size: 20px;
+               }
             }
 
             .btn1:hover, .btn2:hover {
