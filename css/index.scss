@@ -208,7 +208,7 @@ header {
 
 // projects
 .projects {
-   height: 100vh;
+   height: fit-content;
    width: 90%;
    margin: auto;
    padding: 10vh 0 10vh 0;
@@ -225,28 +225,28 @@ header {
       .box {
          width: 100%;
          height: fit-content;
-         margin: auto;
+         margin: 20px auto;
 
          .project-img {
-            width: 90%;
+            width: 100%;
             height: fit-content;
             margin: 15px auto;
             border: 1px solid pink;
 
             img {
-               width: 90%;
+               width: 100%;
                height: 270px;
             }
          }
 
          .project-info {
-            width: 90%;
+            width: 100%;
             margin: 10px auto;
             text-align: start;
          }
 
          .projects-btn {
-            width: 90%;
+            width: 100%;
             margin: 15px auto;
             text-align: start;
 

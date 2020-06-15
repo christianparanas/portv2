@@ -246,7 +246,9 @@ header .front-container .arrow img {
 }
 
 .projects {
-  height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   width: 90%;
   margin: auto;
   padding: 10vh 0 10vh 0;
@@ -267,11 +269,11 @@ header .front-container .arrow img {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .projects .projects-container .box .project-img {
-  width: 90%;
+  width: 100%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -280,18 +282,18 @@ header .front-container .arrow img {
 }
 
 .projects .projects-container .box .project-img img {
-  width: 90%;
+  width: 100%;
   height: 270px;
 }
 
 .projects .projects-container .box .project-info {
-  width: 90%;
+  width: 100%;
   margin: 10px auto;
   text-align: start;
 }
 
 .projects .projects-container .box .projects-btn {
-  width: 90%;
+  width: 100%;
   margin: 15px auto;
   text-align: start;
 }
