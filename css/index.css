@@ -163,6 +163,10 @@ header .front-container .arrow {
   outline-width: 0;
 }
 
+header .front-container .arrow a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 header .front-container .arrow img {
   position: relative;
   -webkit-animation: bounce 2s ease infinite;
@@ -320,7 +324,7 @@ header .front-container .arrow img {
 }
 
 .projects .projects-container .box {
-  width: 90%;
+  width: 95%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;

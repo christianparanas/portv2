@@ -138,6 +138,10 @@ header {
          outline: 0;
          outline-width: 0;
 
+         a {
+            -webkit-tap-highlight-color: transparent;
+         }
+
          img {
             position: relative;
             animation: bounce 2s ease infinite;
@@ -145,8 +149,6 @@ header {
             outline: 0;
             border: 0;
          }
-
-
       }
 
       @keyframes bounce {
@@ -277,7 +279,7 @@ header {
 
 
       .box {
-         width: 90%;
+         width: 95%;
          height: fit-content;
          margin: 20px auto;
 
