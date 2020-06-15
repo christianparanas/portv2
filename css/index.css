@@ -383,7 +383,9 @@ header .front-container .arrow img {
 .skills {
   width: 90%;
   margin: auto;
-  height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   text-align: center;
   padding: 10vh 0 0 0;
 }
