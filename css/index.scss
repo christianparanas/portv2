@@ -332,3 +332,56 @@ header {
    }
 
 }
+
+// skills
+.skills {
+   width: 90%;
+   margin: auto;
+   height: 100vh;
+   text-align: center;
+   padding: 10vh 0 0 0;
+
+   h1 {
+      font-size: 30px;
+   }
+
+   .skill-container {
+      width: 100%;
+      margin: auto;
+
+      .box {
+         margin: 10px 0 40px 0;
+
+         .title {
+            padding: 10px;
+            margin: 20px 0;
+         }
+
+         .set {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+            
+         
+            .lang {
+               height: 100px;
+               border-radius: 10px;
+               padding: 15px;
+               border: 5px solid #11092A;
+               transition: all .5s ease;
+
+               img {
+                  width: 60px;
+                  height: 60px;
+               }
+            }
+
+            .lang:hover {
+               background-color: #11092A;
+               border: 2px solid pink;
+            }
+         }
+      }
+   }
+}
