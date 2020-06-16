@@ -516,13 +516,14 @@ img {
   background-color: #1a9e72;
 }
 
-footer {
+#foot {
+  margin-top: 10vh;
   width: 100%;
   padding: 10px;
   text-align: center;
 }
 
-footer .fot {
+#foot .fot {
   margin-bottom: 20px;
 }
 
