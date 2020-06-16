@@ -216,8 +216,10 @@ header .front-container .arrow img {
 
 .pro {
   width: 90%;
-  margin: auto;
-  height: 100vh;
+  margin: 10px auto 100px auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .pro .pro-container {
