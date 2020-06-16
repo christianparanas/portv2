@@ -435,4 +435,8 @@ header .front-container .arrow img {
   background-color: #11092A;
   border: 2px solid pink;
 }
+
+img {
+  pointer-events: none;
+}
 /*# sourceMappingURL=index.css.map */
