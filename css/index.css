@@ -476,7 +476,7 @@ img {
 }
 
 .contact .contact-container input, .contact .contact-container textarea, .contact .contact-container button {
-  width: 100%;
+  width: 95%;
   font-size: 20px;
   padding: 15px;
   border: 0;
@@ -514,6 +514,16 @@ img {
 
 .contact .contact-container .button:hover {
   background-color: #1a9e72;
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+footer .fot {
+  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

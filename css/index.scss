@@ -415,7 +415,7 @@ img {
 
 
       input, textarea, button {
-         width: 100%;
+         width: 95%;
          font-size: 20px;
          padding: 15px;
          border: 0;
@@ -442,6 +442,17 @@ img {
          background-color: #1a9e72;
       }
 
+   }
+}
+
+// footer 
+footer {
+   width: 100%;
+   padding: 10px;
+   text-align: center;
+
+   .fot {
+      margin-bottom: 20px;
    }
 }
 
