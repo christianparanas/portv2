@@ -194,35 +194,6 @@ header .front-container .lorem .typing {
   margin-right: 3px;
 }
 
-header .front-container .lorem .typing::after {
-  content: "";
-  position: absolute;
-  right: -5px;
-  width: 1px;
-  height: 100%;
-  border-right: 3px solid #fff;
-  -webkit-animation: blink 0.5s infinite ease;
-          animation: blink 0.5s infinite ease;
-}
-
-@-webkit-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 header .front-container .arrow {
   margin-top: 8vh;
   display: -ms-grid;

@@ -158,25 +158,6 @@ header {
             position: relative;
             margin-right: 3px;
          }
-
-         .typing::after {
-            content: "";
-            position: absolute;
-            right: -5px;
-            width: 1px;
-            height: 100%;
-            border-right: 3px solid #fff;
-            animation: blink 0.5s infinite ease;
-         }
-
-         @keyframes blink {
-            0% {
-               opacity: 0;
-            }
-            100% {
-               opacity: 1;
-            }
-         }
       }
 
       .arrow {
