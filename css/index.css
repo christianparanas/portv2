@@ -97,8 +97,8 @@ header nav {
           justify-content: space-between;
   padding: 15px 25px;
   z-index: 101;
-  -webkit-transition: all .6gs ease;
-  transition: all .6gs ease;
+  -webkit-transition: all .6s ease;
+  transition: all .6s ease;
 }
 
 header nav .brand {
