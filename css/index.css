@@ -533,9 +533,11 @@ img {
   display: none;
   width: 90%;
   margin: auto;
-  height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   text-align: center;
-  padding: 18vh 0 0 0;
+  padding: 160px 0;
 }
 
 .contact .contact-container h4 {
