@@ -97,6 +97,8 @@ header nav {
           justify-content: space-between;
   padding: 15px 25px;
   z-index: 101;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
 }
 
 header nav .brand {
@@ -451,7 +453,7 @@ header .front-container .arrow img {
 }
 
 .projects .projects-container .box .projects-btn .btn1:hover, .projects .projects-container .box .projects-btn .btn2:hover {
-  border: 3px solid #1a9e72;
+  border: 3px solid #55B998;
   background-color: #2B0059;
 }
 

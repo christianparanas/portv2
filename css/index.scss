@@ -74,6 +74,7 @@ header {
       justify-content: space-between;
       padding: 15px 25px;
       z-index: 101;
+      transition: all .4s ease;
 
       .brand {
          font-size: 20px;
@@ -326,7 +327,6 @@ header {
          margin: 20px auto;
       }
 
-
       .box {
          width: 95%;
          height: fit-content;
@@ -372,7 +372,7 @@ header {
             }
 
             .btn1:hover, .btn2:hover {
-               border: 3px solid #1a9e72;
+               border: 3px solid #55B998;
                background-color: #2B0059;
             }
          }

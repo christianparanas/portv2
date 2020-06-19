@@ -10,3 +10,14 @@ $(window).on("load", function() {
    $("#foot").show();
    
 })
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("nav").style.top = "0";
+  } else {
+    document.getElementById("nav").style.top = "-70px";
+  }
+  prevScrollpos = currentScrollPos;
+}
