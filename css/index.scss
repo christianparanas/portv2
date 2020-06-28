@@ -337,6 +337,7 @@ header {
             text-align: start;
 
             .btn1, .btn2{
+               text-decoration: none;
                font-size: 18px;
                padding: 10px;
                border-radius: 5px;
@@ -353,8 +354,8 @@ header {
             }
 
             .btn1:hover, .btn2:hover {
-               border: 3px solid #55B998;
-               background-color: #2B0059;
+               border: 3px solid #11092A;
+               background-color: #55B998;
             }
          }
       }
